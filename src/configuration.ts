@@ -1,1 +1,2 @@
-export const backendUrl = process.env.BACKEND_ENV || "http://localhost:8000";
+export const backendUrl =
+  process.env.VUE_APP_BACKEND_ENV || "http://localhost:8000";
