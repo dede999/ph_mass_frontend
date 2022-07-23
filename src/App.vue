@@ -1,12 +1,8 @@
 <template>
-  <component id="app" :is="DefaultLayout">
+  <div id="app">
     <router-view />
-  </component>
+  </div>
 </template>
-
-<script setup lang="ts">
-import DefaultLayout from "@/components/layouts/DefaultLayout.vue";
-</script>
 
 <style>
 #app {
